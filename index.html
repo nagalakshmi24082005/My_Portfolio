@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Bio">Bio</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section id="Home">
+            <h2>Nagalaksmi S</h2>
+            <img src="mypic.jpg" alt="My Picture" style="max-width: 100%; height: auto;">
+        </section>
+ 
+        <section id="Bio">
+            <h3>About Me</h3>
+            <p>
+                I am a Computer Science Engineering student at Sri Eshwar College of Engineering in Coimbatore.<br>
+                With a strong foundation in languages like C, C++, Java, and Python, I’m passionate about developing 
+                innovative solutions and constantly expanding my knowledge in the tech field. Whether it’s coding 
+                complex algorithms or building dynamic applications, I thrive on tackling challenging problems and 
+                finding efficient solutions.
+            </p>
+        </section>
+
+    
+        <section id="Portfolio">
+            <h3>My Portfolio</h3>
+            <ul>
+                <li><b>Employee Management System:</b> A system to streamline HR processes.</li>
+                <li><b>Price Comparison Website for Online Shopping:</b> Enabled users to compare and find the best deals.</li>
+                <li><b>The Number Guessing Game:</b> A fun and interactive way to practice logic and deduction skills.</li>
+            </ul>
+        </section>
+  
+       
+        <section id="Skills">
+            <h3>My Skills</h3>
+            <ul>
+                <li>HTML <progress value="80" max="100"></progress></li>
+                <li>CSS <progress value="80" max="100"></progress></li>
+                <li>JavaScript <progress value="80" max="100"></progress></li>
+                <li>React <progress value="80" max="100"></progress></li>
+            </ul>
+        </section>
+
+      
+        <section id="Contact">
+            <h3>Contact Me</h3>
+            <form action="https://formspree.io/f/mpwwobpo" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nagalaksmi S. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
